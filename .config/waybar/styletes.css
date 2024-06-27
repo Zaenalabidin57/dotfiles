@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-    background-color: transparent;
+    background-color: @kcabground;
     color: @text;
     transition-property: background-color;
     transition-duration: .5s;
@@ -26,7 +26,7 @@ window#waybar.solo {
 */
 
 window#waybar.termite {
-    background-color: transparent;
+    background-color: @base;
 }
 
 window#waybar.chromium {
@@ -75,8 +75,8 @@ button:hover {
 }
 
 #mode {
-    background-color: transparent;
-    color: @crust;
+    background-color: @kcabground;
+    color: @kcabground;
     border-bottom: 2px solid @text;
 }
 
@@ -117,7 +117,7 @@ button:hover {
 }
 
 #clock {
-    background-color: transparent;
+    background-color: @kcabground;
     color: @text;
 }
 
@@ -153,12 +153,12 @@ label:focus {
 }
 
 #cpu {
-    background-color: transparent;
+    background-color: @kcabground;
     color: @text;
 }
 
 #memory {
-    background-color: transparent;
+    background-color: @kcabground;
 }
 
 #disk {
@@ -166,11 +166,11 @@ label:focus {
 }
 
 #backlight {
-    background-color: transparent;
+    background-color: @kcabground;
 }
 
 #network {
-    background-color: transparent;
+    background-color: @kcabground;
 }
 
 #network.disconnected {
@@ -178,7 +178,7 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: transparent;
+    background-color: @kcabground;
     color: @text;
 }
 
@@ -211,7 +211,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: transparent;
+    background-color: @kcabground;
 }
 
 #temperature.critical {

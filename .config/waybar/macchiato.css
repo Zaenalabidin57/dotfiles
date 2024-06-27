@@ -4,6 +4,7 @@
 * Maintainer: rubyowo
 *
 */
+@define-color kcabground #1E1E1E;
 
 @define-color base   #24273a;
 /* @define-color mantle #1e2030; */
@@ -24,7 +25,8 @@
 @define-color overlay2 #939ab7;
 
 /* @define-color blue      #8aadf4; */
-@define-color blue      #f5bde6;
+@define-color blue      #96AEEE;
+/* @define-color blue      #f5bde6; */
 @define-color lavender  #b7bdf8;
 @define-color sapphire  #7dc4e4;
 @define-color sky       #91d7e3;
