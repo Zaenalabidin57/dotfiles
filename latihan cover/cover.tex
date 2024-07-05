@@ -1,0 +1,88 @@
+\documentclass[a4paper,12 pt]{article}
+\usepackage{color}
+\usepackage[bahasa]{babel}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{blindtext}
+
+%membuat url bisa diklik
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\title{\textbf{Tugas Membuat Dokumen }\linebreak 
+\textbf{Dengan \LaTeX}\linebreak}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\begin{center}
+\includegraphics[width=4cm,height=5cm]{logo}
+\end{center}
+
+
+\vspace{0.5 cm}
+\begin{center}
+\begin{tabular}{ll}
+Nama & : Nama Mahasiswa disini \\
+NIM & : xxxxxx\\
+\end{tabular}
+\newline
+\newline
+\newline
+Untuk Memenuhi Tugas Mata Kuliah \\
+Dosen Pengampu: Apri Junaidi, S. Kom., M. Kom., MCS \linebreak
+\newline
+\newline
+\textbf {PROGRAM STUDI SAINS DATA} \\
+\textbf {FAKULTAS INFORMATIKA} \\
+\textbf {INSTITUT TEKNOLOGI TELKOM PURWOKERTO}
+\linebreak
+\textbf {2021} \linebreak
+\end{center}
+
+\pagebreak
+
+\tableofcontents
+\pagebreak
+
+\listoffigures
+\pagebreak
+
+\section{Menampilkan Gambar di \LaTeX}
+\blindtext\\
+\linebreak
+Ini adalah contoh untuk  menyisipkan gambar dalam dokumen seperti terlihat pada Gambar \ref{fig:logo}.
+
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=4cm,height=5cm]{logo}
+	\caption{Logo Institut Teknologi Telkom Purwokerto}
+	\label{fig:logo}
+\end{figure}
+
+\section{Menampilkan script Program di \LaTeX}
+\blindtext\\
+\linebreak
+Berikut adalah script program python untuk menghitung perkalian :
+
+\begin{verbatim}
+ulang = int(input ("Jumlah Looping : "))
+kali = int(input ("Perkalian berapa :")) 
+
+for i in range (1, ulang + 1) :
+  print(i, "x", kali, "=", i * kali )
+print ("Looping sudah dilakukan")
+\end{verbatim}
+
+
+\end{document}
