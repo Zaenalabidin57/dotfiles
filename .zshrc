@@ -12,7 +12,7 @@ fi
 export ZSH=$HOME/.oh-my-zsh
 export PATH="$PATH:/home/shigure/.local/bin:/home/shigure/.cargo/bin/"
 export WINEDLLOVERRIDES="winhttp=n,b"
-export XDG_CURRENT_DESKTOP="Hyprland"
+#export XDG_CURRENT_DESKTOP="Hyprland"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # export XDG_CURRENT_DESKTOP=gnome
