@@ -5,7 +5,7 @@
     // "width": 1280, // Waybar width
     "spacing": 2, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "river/tags"],
     "modules-center": ["hyprland/window"],
     //"modules-center": ["cava"],
     "modules-right": ["network", "pulseaudio", "cpu", "memory", "temperature","backlight", "battery","clock"],
@@ -26,6 +26,9 @@
     //         "default": ""
     //     }
     // },
+"river/tags": {
+	"num-tags": 5
+},
   "hyprland/workspaces": {
 	"format": "{name}",
 	//"format": "{name}: {icon}",

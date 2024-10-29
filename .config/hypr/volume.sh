@@ -23,6 +23,7 @@ if [ "$1" = "vol" ]; then
         fi
     elif [[ $VOL < 34 ]]; then
         notify-send --category=volume --hint=int:transient:1 --hint=int:value:$VOL --hint=string:synchronous:volume -i audio-volume-low "${VOL_STRING}" ""
+        notify-send --category=volume "${VOL_STRING}" ""
     elif [[ $VOL < 67 ]]; then
         notify-send --category=volume --hint=int:transient:1 --hint=int:value:$VOL --hint=string:synchronous:volume -i audio-volume-medium "${VOL_STRING}" ""
     else
